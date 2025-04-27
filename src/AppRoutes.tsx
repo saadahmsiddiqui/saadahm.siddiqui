@@ -5,8 +5,8 @@ import Home from "./components/Home";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="saadahm.siddiqui" element={<Layout />}>
-        <Route index element={<Home />} />
+      <Route element={<Layout />}>
+        <Route path="saadahm.siddiqui" index element={<Home />} />
       </Route>
     </Routes>
   );
