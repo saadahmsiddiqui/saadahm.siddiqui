@@ -5,7 +5,7 @@ import Home from "./components/Home";
 function AppRoutes() {
   return (
     <Routes>
-      <Route element={<Layout />}>
+      <Route path="saadahm.siddiqui" element={<Layout />}>
         <Route index element={<Home />} />
       </Route>
     </Routes>
