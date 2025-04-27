@@ -6,7 +6,7 @@ function AppRoutes() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route index element={<Home />} />
+        <Route path="saadahm.siddiqui" index element={<Home />} />
       </Route>
     </Routes>
   );
