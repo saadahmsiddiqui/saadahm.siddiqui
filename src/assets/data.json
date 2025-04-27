@@ -1,0 +1,114 @@
+{
+  "title": "Hey, Welcome",
+  "header": "Saad Ahmed Siddiqui",
+  "links": [
+    {
+      "title": "Linkedin",
+      "link": "https://linkedin.com/in/saadjhk",
+      "name": "linkedin"
+    },
+    {
+      "title": "Github",
+      "link": "https://github.com/saadahmsiddiqui",
+      "name": "github"
+    },
+    {
+      "title": "Leetcode",
+      "link": "https://leetcode.com/u/saadahmsiddiqui",
+      "name": "leetcode"
+    }
+  ],
+  "education": [
+    {
+      "startDate": 1712743200,
+      "endDate": 1744736400,
+      "degreeTitle": "MSc Business Management",
+      "institute": "GISMA University of Applied Sciences",
+      "city": "Karachi",
+      "country": "Pakistan"
+    },
+    {
+      "startDate": 1438423200,
+      "endDate": 1559296800,
+      "degreeTitle": "BS Computer Science",
+      "institute": "National University of Computer & Emerging Sciences",
+      "city": "Karachi",
+      "country": "Pakistan"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "start": { "month": 6, "year": 2023 },
+      "end": { "month": 1, "year": 2024 },
+      "company": "Antematter",
+      "description": "",
+      "skills": ["Full Stack", "GraphQL", "Typescript", "Redis", "Solidity", "React"],
+      "city": "",
+      "country": "Cyprus",
+      "isRemote": true
+    },
+    {
+      "title": "Senior Software Engineer",
+      "start": { "month": 11, "year": 2022 },
+      "end": { "month": 6, "year": 2023 },
+      "company": "Glitter Finance",
+      "description": "",
+      "skills": ["Full Stack", "React", "Typescript", "Redis", "Solidity", "Blockchain"],
+      "city": "Harjumaa",
+      "country": "Estonia",
+      "isRemote": true
+    },
+    {
+      "title": "Full Stack Developer",
+      "start": { "month": 9, "year": 2021 },
+      "end": { "month": 11, "year": 2022 },
+      "company": "Composable Foundation",
+      "description": "",
+      "skills": ["Full Stack", "React", "Typescript", "Polkadot", "Ethereum"],
+      "city": "",
+      "country": "Cyprus",
+      "isRemote": true
+    },
+    {
+      "title": "Software Engineer",
+      "start": { "month": 9, "year": 2020 },
+      "end": { "month": 9, "year": 2021 },
+      "company": "Seed Labs",
+      "description": "",
+      "skills": ["Full Stack", "React", "Typescript", "Node JS", "Ethereum"],
+      "city": "Karachi",
+      "country": "Pakistan"
+    },
+    {
+      "title": "Software Engineer",
+      "start": { "month": 7, "year": 2020 },
+      "end": { "month": 9, "year": 2020 },
+      "company": "SBT Japan",
+      "description": "",
+      "skills": ["React", "AWS SQS", "Typescript", "Full Stack", "Express JS"],
+      "city": "Karachi",
+      "country": "Pakistan"
+    },
+    {
+      "title": "Software Engineer",
+      "start": { "month": 5, "year": 2019 },
+      "end": { "month": 7, "year": 2020 },
+      "company": "Sofy.ai",
+      "description": "",
+      "skills": ["Angular", "Frontend", "Typescript", "RxJS"],
+      "city": "Karachi",
+      "country": "Pakistan"
+    },
+    {
+      "title": "Software Intern",
+      "start": { "month": 6, "year": 2018 },
+      "end": { "month": 8, "year": 2028 },
+      "company": "GFK Etilize",
+      "description": "",
+      "skills": ["Angular", "Frontend", "Typescript", "RxJS"],
+      "city": "Karachi",
+      "country": "Pakistan"
+    }
+  ]
+}
