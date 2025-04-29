@@ -26,12 +26,15 @@ function SocialIcon({ name, ...props }: SocialIconProps) {
 
 
 function Header() {
+
   return (
-    <header className="flex p-5 bg-stone-800 shadow-xl/20">
+    <header className="flex p-5">
       <title>{data.title}</title>
 
-      <div className="flex flex-2 bg-green">
-        <p className="text-2xl">{data.header}</p>
+      <div className="flex flex-col flex-2 bg-green">
+        <p className="text-3xl font-semibold mt-3">{data.personal.name}</p>
+        <p className="text-xl font-medium mt-2">Berlin, DE</p>
+        <p className="text-md mt-2">{data.personal.phone}</p>
       </div>
       <div className="flex flex-1 gap-2 justify-end items-center">
         {data.links.map(({ title, link, name }) => (

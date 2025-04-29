@@ -14,7 +14,7 @@ function Education() {
               <p className="text-xl font-semibold">{degreeTitle}</p>
               <p className="text-md font-medium">{institute}</p>
               <p className="text-sm font-thin">
-                {localizeUnixTimestamp(startDate)} -{" "}
+                {localizeUnixTimestamp(startDate) + " "}-{" "}
                 {localizeUnixTimestamp(endDate)}
               </p>
             </div>

@@ -1,6 +1,10 @@
 {
   "title": "Hey, Welcome",
-  "header": "Saad Ahmed Siddiqui",
+  "personal": {
+    "name": "Saad Ahmed Siddiqui",
+    "email": "saadahm.siddiqui@gmail.com",
+    "phone": "+49 177 2046 189"
+  },
   "links": [
     {
       "title": "Linkedin",
