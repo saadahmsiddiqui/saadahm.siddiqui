@@ -1,11 +1,13 @@
 import Education from "./Education";
-import WorkingExperience from "./WorkingExperience";
+import Summary from "./Summary";
+import ProfessionalExperience from "./ProfessionalExperience";
 
 function Home() {
   return (
     <div>
+      <Summary />
+      <ProfessionalExperience />
       <Education />
-      <WorkingExperience />
     </div>
   );
 }

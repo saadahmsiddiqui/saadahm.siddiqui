@@ -3,7 +3,8 @@
   "personal": {
     "name": "Saad Ahmed Siddiqui",
     "email": "saadahm.siddiqui@gmail.com",
-    "phone": "+49 177 2046 189"
+    "phone": "+49 177 2046 189",
+    "summary": "Experienced full stack engineer with 6+ years of expertise in agile e2e development, specializing in blockchain and artificial intelligence solutions."
   },
   "links": [
     {
@@ -28,8 +29,8 @@
       "endDate": 1744736400,
       "degreeTitle": "MSc Business Management",
       "institute": "GISMA University of Applied Sciences",
-      "city": "Karachi",
-      "country": "Pakistan"
+      "city": "Berlin",
+      "country": "Germany"
     },
     {
       "startDate": 1438423200,
@@ -42,14 +43,23 @@
   ],
   "experience": [
     {
+      "title": "Senior Software Engineer",
+      "start": { "month": 2, "year": 2024 },
+      "end": { "month": 2, "year": 2025 },
+      "company": "Chainsafe Systems GmbH",
+      "description": "",
+      "city": "Berlin",
+      "country": "Germany",
+      "isRemote": true
+    },
+    {
       "title": "Full Stack Developer",
       "start": { "month": 6, "year": 2023 },
       "end": { "month": 1, "year": 2024 },
       "company": "Antematter",
       "description": "",
-      "skills": ["Full Stack", "GraphQL", "Typescript", "Redis", "Solidity", "React"],
-      "city": "",
-      "country": "Cyprus",
+      "city": "Islamabad",
+      "country": "Pakistan",
       "isRemote": true
     },
     {
@@ -58,7 +68,6 @@
       "end": { "month": 6, "year": 2023 },
       "company": "Glitter Finance",
       "description": "",
-      "skills": ["Full Stack", "React", "Typescript", "Redis", "Solidity", "Blockchain"],
       "city": "Harjumaa",
       "country": "Estonia",
       "isRemote": true
@@ -67,9 +76,8 @@
       "title": "Full Stack Developer",
       "start": { "month": 9, "year": 2021 },
       "end": { "month": 11, "year": 2022 },
-      "company": "Composable Foundation",
+      "company": "Composable Labs",
       "description": "",
-      "skills": ["Full Stack", "React", "Typescript", "Polkadot", "Ethereum"],
       "city": "",
       "country": "Cyprus",
       "isRemote": true
@@ -80,7 +88,7 @@
       "end": { "month": 9, "year": 2021 },
       "company": "Seed Labs",
       "description": "",
-      "skills": ["Full Stack", "React", "Typescript", "Node JS", "Ethereum"],
+
       "city": "Karachi",
       "country": "Pakistan"
     },
@@ -90,7 +98,6 @@
       "end": { "month": 9, "year": 2020 },
       "company": "SBT Japan",
       "description": "",
-      "skills": ["React", "AWS SQS", "Typescript", "Full Stack", "Express JS"],
       "city": "Karachi",
       "country": "Pakistan"
     },
@@ -100,7 +107,6 @@
       "end": { "month": 7, "year": 2020 },
       "company": "Sofy.ai",
       "description": "",
-      "skills": ["Angular", "Frontend", "Typescript", "RxJS"],
       "city": "Karachi",
       "country": "Pakistan"
     },
@@ -110,7 +116,6 @@
       "end": { "month": 8, "year": 2028 },
       "company": "GFK Etilize",
       "description": "",
-      "skills": ["Angular", "Frontend", "Typescript", "RxJS"],
       "city": "Karachi",
       "country": "Pakistan"
     }

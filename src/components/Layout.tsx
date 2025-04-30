@@ -4,11 +4,11 @@ import Header from "./Header";
 
 function Layout() {
   return (
-    <div className="bg-dark-shade1 text-white">
+    <div className="bg-dark-shade1 text-white font-serif">
       <div className="flex justify-center">
         <div className="w-3/5">
           <Header></Header>
-          <div className="flex mt-3">
+          <div className="flex">
             <Outlet></Outlet>
           </div>
           <Footer></Footer>

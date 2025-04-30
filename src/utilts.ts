@@ -1,5 +1,5 @@
-export function localizeUnixTimestamp(unixTimestamp: number): string {
-  return new Date(unixTimestamp * 1000).toLocaleDateString();
+export function formatTimestamp(unixTimestamp: number): string {
+  return new Date(unixTimestamp * 1000).toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'})
 }
 
 export function formatWorkingExperienceTimeData(data: {
