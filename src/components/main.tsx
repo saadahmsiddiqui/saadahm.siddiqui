@@ -12,7 +12,7 @@ export default function Main() {
       <div className="grid grid-cols-3 gap-8">
         <div className="col-span-3 md:col-span-2 space-y-6">
           <div className="flex items-start gap-4">
-            <div className="w-10 h-10 bg-lime-400 rounded-md"></div>
+            <img src="profile.jpeg" className="w-10 h-10 rounded-md" />
             <div>
               <h1 className="font-semibold text-zinc-800">
                 Saad Ahmed Siddiqui
