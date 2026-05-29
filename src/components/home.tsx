@@ -1,5 +1,5 @@
-import { Generated } from "./generated";
+import Main from "./main";
 
 export default function Home() {
-  return <Generated />;
+  return <Main />;
 }
