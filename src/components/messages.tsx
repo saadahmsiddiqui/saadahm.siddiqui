@@ -46,7 +46,7 @@ export default function Messages() {
   const [name, setName] = useState("");
   const [text, setText] = useState("");
   const [messagesList, setMessagesList] = useState<Message[]>([]);
-  const [loading, setIsLoading] = useState(true);
+  const [loading, setIsLoading] = useState(false);
 
   const updateMessageList = useCallback(() => {
     getMessages().then((data) => {
