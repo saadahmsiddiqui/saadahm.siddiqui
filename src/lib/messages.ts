@@ -7,7 +7,11 @@ type Message = {
 };
 
 export async function getMessages(): Promise<Message[]> {
-  const { data, error } = await client.from("messages").select("*").limit(500);
+  const { data, error } = await client
+    .from("messages")
+    .select("*")
+    .order("created_at", { ascending: false })
+    .limit(500);
 
   if (error) {
     console.error(error);

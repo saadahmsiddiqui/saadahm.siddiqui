@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { getMessages, sendMessage } from "../lib/messages";
+import { BeatLoader } from "react-spinners";
 
 const backgrounds = [
   "bg-[#FF007F]",
@@ -45,6 +46,7 @@ export default function Messages() {
   const [name, setName] = useState("");
   const [text, setText] = useState("");
   const [messagesList, setMessagesList] = useState<Message[]>([]);
+  const [loading, setIsLoading] = useState(true);
 
   const updateMessageList = useCallback(() => {
     getMessages().then((data) => {
@@ -75,10 +77,17 @@ export default function Messages() {
       return;
     }
 
+    setIsLoading(true);
     if (name.length > 0 && text.length > 0) {
-      sendMessage(name, text).then(() => {
-        updateMessageList();
-      });
+      sendMessage(name, text)
+        .then(() => {
+          updateMessageList();
+          setIsLoading(false);
+        })
+        .catch((err) => {
+          console.error(err);
+          setIsLoading(false);
+        });
     }
   }, [name, text, updateMessageList]);
 
@@ -130,7 +139,7 @@ export default function Messages() {
           }}
           className="my-3 bg-rose-500 py-2 rounded-md shadow-sm"
         >
-          Post
+          {loading ? <BeatLoader color="white" size={6} /> : "Post"}
         </button>
       </div>
     </>
