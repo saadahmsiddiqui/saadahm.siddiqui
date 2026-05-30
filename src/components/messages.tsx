@@ -1,4 +1,5 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
+import { getMessages, sendMessage } from "../lib/messages";
 
 const backgrounds = [
   "bg-[#FF007F]",
@@ -45,18 +46,28 @@ export default function Messages() {
   const [text, setText] = useState("");
   const [messagesList, setMessagesList] = useState<Message[]>([]);
 
-  const addMessage = useCallback(
-    (newMessage: Message) => {
-      let list: Message[] = [];
-      if (messagesList.length + 1 > 500) {
-        list = messagesList.slice(1);
-      } else {
-        list = messagesList;
-      }
-      setMessagesList([...list, newMessage]);
-    },
-    [messagesList, setMessagesList],
-  );
+  const updateMessageList = useCallback(() => {
+    getMessages().then((data) => {
+      setMessagesList(
+        data.map(
+          (
+            d: Omit<Message & { created_at: string }, "date" | "background">,
+          ) => {
+            return {
+              by: d.by,
+              message: d.message,
+              background: getRandomBackgroundColor(),
+              date: new Date(d.created_at),
+            };
+          },
+        ),
+      );
+    });
+  }, [setMessagesList]);
+
+  useEffect(() => {
+    updateMessageList();
+  }, [updateMessageList]);
 
   const onClickAddMessage = useCallback(() => {
     if (name.length > 50 || text.length > 255) {
@@ -65,15 +76,11 @@ export default function Messages() {
     }
 
     if (name.length > 0 && text.length > 0) {
-      const background = getRandomBackgroundColor();
-      addMessage({
-        by: name,
-        message: text,
-        background,
-        date: new Date(),
+      sendMessage(name, text).then(() => {
+        updateMessageList();
       });
     }
-  }, [name, text, addMessage]);
+  }, [name, text, updateMessageList]);
 
   return (
     <>
