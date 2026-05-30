@@ -83,6 +83,8 @@ export default function Messages() {
         .then(() => {
           updateMessageList();
           setIsLoading(false);
+          setText('');
+          setName('');
         })
         .catch((err) => {
           console.error(err);
