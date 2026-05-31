@@ -8,7 +8,7 @@ function AppRoutes() {
       <head><title>Hi, You've reached me</title></head>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="saadahm.siddiqui" index element={<Home />} />
+          <Route path="/" index element={<Home />} />
         </Route>
       </Routes>
     </>
