@@ -109,8 +109,9 @@ export default function Messages() {
         </div>
       )}
 
-      <div className="text-white rounded-lg flex flex-col mt-6">
-        <label className="text-zinc-400 my-1" htmlFor="">
+      <h2 className="text-xs uppercase text-zinc-400 mt-4">Leave a note</h2>
+      <div className="text-white rounded-lg flex flex-col">
+        <label className="text-zinc-400" htmlFor="">
           Name
         </label>
         <input
