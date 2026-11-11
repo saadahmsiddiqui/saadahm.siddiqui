@@ -1,17 +1,23 @@
 import { Route, Routes } from "react-router";
 import Layout from "./components/layout";
 import Home from "./components/home";
+import About from "./components/about";
+import Projects from "./components/projects";
+import Photography from "./components/photography";
+import Hobbies from "./components/hobbies";
 
 function AppRoutes() {
   return (
-    <>
-      <head><title>Hi, You've reached me</title></head>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route path="saadahm.siddiqui" index element={<Home />} />
-        </Route>
-      </Routes>
-    </>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="photography" element={<Photography />} />
+        <Route path="hobbies" element={<Hobbies />} />
+        <Route path="*" element={<Home />} />
+      </Route>
+    </Routes>
   );
 }
 

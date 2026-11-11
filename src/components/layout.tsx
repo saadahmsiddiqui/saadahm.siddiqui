@@ -1,11 +1,20 @@
 import { Outlet } from "react-router";
+import Container from "./container";
+import Header from "./header";
+import Footer from "./footer";
 
-function Layout() {
+export default function Layout() {
   return (
-    <div className="groovy-background flex items-center justify-center min-h-screen">
-      <Outlet></Outlet>
+    <div className="relative isolate min-h-screen overflow-x-clip">
+      <Container className="pt-10 sm:pt-16">
+        <Header />
+      </Container>
+      <main>
+        <Outlet />
+      </main>
+      <Container className="pb-10 sm:pb-16">
+        <Footer />
+      </Container>
     </div>
   );
 }
-
-export default Layout;

@@ -1,8 +1,69 @@
+@import "@radix-ui/colors/slate-dark.css";
+@import "@radix-ui/colors/amber-dark.css";
 @import "tailwindcss";
 
-.groovy-background {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("assets/background.png");
-  background-position: center top;
+/*
+ * Radix Colors dark scales (applied via class="dark" on <html>).
+ * Step guide: 1 app background, 6 subtle borders, 9 solid, 11 low-contrast
+ * text, 12 high-contrast text. To try another grey, swap "slate" for
+ * gray, mauve, sage, olive or sand in the imports and here.
+ */
+@theme inline {
+  --color-ink: var(--slate-1);    /* page background */
+  --color-deep: var(--slate-6);   /* rules, borders */
+  --color-paper: var(--slate-12); /* headings */
+  --color-fog: var(--slate-12);   /* body text */
+  --color-dust: var(--slate-11);  /* dates, secondary text */
+  --color-lamp: var(--amber-11);  /* links and focus only */
+
+  --font-sans: "Lato", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    background: var(--color-ink);
+    color: var(--color-fog);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: var(--amber-9);
+    color: var(--slate-1);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-lamp);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+/* The one orchestrated moment: the intro settles in on load. */
+@keyframes settle {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+.settle {
+  animation: settle 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+/* Fades the hero's signal field out at the edges so it sits behind the text. */
+.signal-mask {
+  --signal-mask: radial-gradient(130% 85% at 55% 40%, #000 35%, transparent 80%);
+  -webkit-mask-image: var(--signal-mask);
+  mask-image: var(--signal-mask);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .settle {
+    animation: none;
+  }
 }

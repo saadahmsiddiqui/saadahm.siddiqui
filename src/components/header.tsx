@@ -1,23 +1,40 @@
-import { LinkedInLogoIcon, InstagramLogoIcon, MobileIcon } from "@radix-ui/react-icons";
-
-const links = [
-  { href: "https://linkedin.com/in/saadjhk", Icon: LinkedInLogoIcon },
-  { href: "https://www.instagram.com/saadahm.siddiqui", Icon: InstagramLogoIcon },
-  { href: "tel:491772046189", Icon: MobileIcon}
-];
+import { Link, NavLink } from "react-router";
+import { site } from "../content/site";
+import { nav } from "../content/nav";
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center mb-6">
-      <div className="flex gap-3 text-zinc-800">
-        {links.map((link) => (
-          <a className="cursor-pointer" href={link.href}>{<link.Icon className="h-4 w-4" />}</a>
-        ))}
-      </div>
+    <header className="flex items-center justify-between gap-6 text-sm">
+      <Link to="/" className="flex items-center gap-3 text-paper">
+        <img
+          src={site.photo}
+          alt=""
+          width={32}
+          height={32}
+          className="h-8 w-8 rounded-full object-cover grayscale-[35%]"
+        />
+        <span className="hidden sm:inline">{site.name}</span>
+      </Link>
 
-      <div className="flex items-center gap-6 text-xs text-zinc-500">
-        <a className="cursor-pointer" href="mailto:saadahm.siddiqui@gmail.com">saadahm.siddiqui@gmail.com</a>
-      </div>
-    </div>
+      <nav aria-label="Main">
+        <ul className="flex gap-6">
+          {nav.map((item) => (
+            <li key={item.to}>
+              <NavLink
+                to={item.to}
+                end
+                className={({ isActive }) =>
+                  `underline-offset-[6px] transition-colors hover:text-lamp ${
+                    isActive ? "text-paper underline decoration-deep" : "text-dust"
+                  }`
+                }
+              >
+                {item.label}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
   );
 }
