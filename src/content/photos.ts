@@ -1,12 +1,12 @@
 const details = {
-  "IMG_1579.jpeg": {
+  "IMG_1579.jpg": {
     title: "Small Flames",
     story:
       "Rows of candles running down a dark wall, each one flickering a little out of step with the others. The room was almost black apart from them. They were the only thing to look at, and they were enough.",
     alt: "Pillar candles glowing warm yellow on dark wall shelves, receding into the distance",
     date: "2024-12-30",
   },
-  "IMG_2351.jpeg": {
+  "IMG_2351.jpg": {
     title: "Coming Up for Air",
     story:
       "Leaving the station at Potsdamer Platz at dusk. You ride the escalator out of the ground and the city opens up above you through a lit glass grid: towers, the last blue of the sky, and the yellow lights coming on one by one.",
@@ -14,7 +14,7 @@ const details = {
     place: "Potsdamer Platz, Berlin",
     date: "2025-04-27",
   },
-  "IMG_2385.jpeg": {
+  "IMG_2385.jpg": {
     title: "Spring, All at Once",
     story:
       "Spring seemed to come overnight. A hedge I had walked past all winter without noticing was suddenly covered in small white flowers. I stopped, looked closer, and noticed each cluster was dozens of tiny blossoms.",
@@ -27,6 +27,20 @@ const details = {
       "Two folding chairs, a wooden table, and a wall slowly disappearing under ivy. The courtyard is quiet in a way the street never is. It is where mornings start slowly and evenings end late, with laundry drying overhead.",
     alt: "A small balcony with folding chairs overlooking a courtyard, the building opposite covered in green and rust-coloured ivy",
     date: "2025-05-10",
+  },
+  "IMG_0023.jpg": {
+    title: "A Baku Street",
+    story:
+      "The street outside the Hotel in Baku, where I stayed for a few nights. We had no cash in our pockets, spoke a language completely foreign to the locals and had no idea where we were going. But the street was quiet, and the hotel was warm and welcoming.",
+    alt: "The street outside the Hotel in Baku, where I stayed for a few nights.",
+    date: "2023-02-26",
+  },
+  "IMG_0022.jpg": {
+    title: "Kia Picanto",
+    story:
+      "A car that I have finally bought with my own money. It is a small, practical car that I can use to get around the city.",
+    alt: "A Kia Picanto parked in a quiet street.",
+    date: "2022-07-16",
   },
 };
 /**

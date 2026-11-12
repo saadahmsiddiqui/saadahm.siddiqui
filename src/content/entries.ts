@@ -12,13 +12,62 @@ export type Entry = {
   description?: string;
   /** First year, and last year if it spans more than one. */
   from: number;
+  /** Month started (1–12). Optional; shown on project cards as "Mar 2025". */
+  month?: number;
   to?: number;
   place?: string;
   remote?: boolean;
   href?: string;
+  /** Projects only: source code link, shown as a "GitHub" link on the card. */
+  github?: string;
+  /** Projects only: where the project stands today. */
+  status?: ProjectStatus;
 };
 
+export type ProjectStatus = "live" | "development" | "unmaintained";
+
 export const entries: Entry[] = [
+  {
+    kind: "project",
+    title: "dkv - Distributed Key-Value Cache",
+    from: 2026,
+    month: 10,
+    status: "development",
+    github: "https://github.com/saadahmsiddiqui/dkv",
+    description:
+      "A distributed key-value cache written in Rust. I started it to learn systems programming and Rust development.",
+  },
+  {
+    kind: "project",
+    title: "You can just pay me",
+    from: 2026,
+    month: 9,
+    status: "development",
+    href: "https://youcanjustpay.me",
+    github: "",
+    description:
+      "A simple, privacy-focused payment page for freelancers and creators. I built it to learn Next.js, TypeScript, and Supabase.",
+  },
+  {
+    kind: "project",
+    title: "basic-exchange",
+    from: 2025,
+    month: 5,
+    status: "unmaintained",
+    github: "https://github.com/saadahmsiddiqui/basic-exchange",
+    description:
+      "An order matching engine implementation in RUST. It was created as a take home assignment for a job application. It was a fun project to learn RUST and how order matching engines work.",
+  },
+  // {
+  //   kind: "project",
+  //   title: "Project name",
+  //   from: 2025,
+  //   month: 3,
+  //   status: "live", // "live" | "development" | "unmaintained"
+  //   href: "https://example.com", // live site, links the title
+  //   repo: "https://github.com/you/project",
+  //   description: "What it is and why you built it.",
+  // },
   {
     kind: "work",
     title: "Geode Labs",
@@ -130,4 +179,10 @@ export function entriesOfKind(kind: Entry["kind"]): Entry[] {
 export function formatYears({ from, to }: Entry): string {
   if (!to || to === from) return String(from);
   return `${from}–${String(to).slice(-2)}`;
+}
+
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+export function formatStarted({ from, month }: Entry): string {
+  return month ? `${MONTHS[month - 1]} ${from}` : String(from);
 }

@@ -20,4 +20,9 @@ export const explore = [
     body: "Badminton, padel, philosophy, and the occasional cat.",
     to: "/hobbies",
   },
+  {
+    title: "Music",
+    body: "My favorite albums and playlists from around the world.",
+    to: "/music",
+  }
 ] as const;

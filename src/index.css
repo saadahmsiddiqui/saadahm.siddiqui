@@ -1,5 +1,6 @@
 @import "@radix-ui/colors/slate-dark.css";
 @import "@radix-ui/colors/amber-dark.css";
+@import "@radix-ui/colors/grass-dark.css";
 @import "tailwindcss";
 
 /*
@@ -15,6 +16,7 @@
   --color-fog: var(--slate-12);   /* body text */
   --color-dust: var(--slate-11);  /* dates, secondary text */
   --color-lamp: var(--amber-11);  /* links and focus only */
+  --color-live: var(--grass-11);  /* project status: live */
 
   --font-sans: "Lato", system-ui, sans-serif;
 }
