@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { artists, onRepeat, songs /* , stories */ } from "../content/music";
+import { /* artists, */ onRepeat, songs /* , stories */ } from "../content/music";
 import { useSpotifyPlayer } from "../hooks/use-spotify-player";
 // import { spotifyUri } from "../utilts"; // used by Stories
 import Container from "./container";

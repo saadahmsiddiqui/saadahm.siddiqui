@@ -5,7 +5,6 @@ import { PlayButton } from "./player-bar";
 
 export default function SongCard({
   song,
-  index,
   player,
 }: {
   song: Song;
