@@ -46,7 +46,7 @@ export const entries: Entry[] = [
     href: "https://youcanjustpayme.com",
     github: "",
     description:
-      "A simple, privacy-focused payment page for freelancers and creators. I built it to learn Next.js, TypeScript, and Supabase.",
+      "A simple, privacy-focused payment page for freelancers and creators. I built it using Next.js, TypeScript, and Supabase.",
   },
   {
     kind: "project",
