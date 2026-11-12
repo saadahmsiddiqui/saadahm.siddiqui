@@ -82,7 +82,7 @@ export const songs: Song[] = [
     title: "Ma Meilleure Ennemie",
     artist: "Stromae, Coldplay",
     year: "2024",
-    note: "",
+    note: "Her voice weaving Arabic and French through the old medinas, set against the pulse of Ma Meilleure Ennemie. It was passionate, completely new, and overwhelming—a memory locked forever in those first few notes.",
     spotify:
       "https://open.spotify.com/track/1ZHvGQZNz6HLbxhAtu7pin?si=1baa96cf12aa45ea",
   },
