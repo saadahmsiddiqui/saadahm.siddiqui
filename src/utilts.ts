@@ -26,3 +26,13 @@ export function formatWorkingExperienceTimeData(data: {
   const workingDate = new Date(Date.UTC(year, month, 1, 0, 0, 0, 0));
   return monthNames[workingDate.getMonth() + 1] + " " + workingDate.getFullYear()
 }
+
+const SPOTIFY_LINK = /open\.spotify\.com\/(?:intl-[a-z]+\/)?(track|album|playlist|artist|episode|show)\/([A-Za-z0-9]+)/;
+
+/** Turns a Spotify share link into a URI like `spotify:track:<id>`, or null if it isn't one. */
+export function spotifyUri(link?: string): string | null {
+  const match = link?.match(SPOTIFY_LINK);
+  if (!match) return null;
+  const [, type, id] = match;
+  return `spotify:${type}:${id}`;
+}
