@@ -15,11 +15,11 @@ export const explore = [
     body: "Photos from the cities I’ve lived in and travelled through.",
     to: "/photography",
   },
-  {
-    title: "Hobbies",
-    body: "Badminton, padel, philosophy, and the occasional cat.",
-    to: "/hobbies",
-  },
+  // {
+  //   title: "Hobbies",
+  //   body: "Badminton, padel, philosophy, and the occasional cat.",
+  //   to: "/hobbies",
+  // },
   {
     title: "Music",
     body: "My favorite albums and playlists from around the world.",
