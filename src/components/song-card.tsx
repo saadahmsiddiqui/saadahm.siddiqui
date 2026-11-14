@@ -15,30 +15,33 @@ export default function SongCard({
 
   return (
     <li className="flex flex-col rounded-xl border border-deep bg-ink p-5">
-      <div className="relative aspect-square overflow-hidden rounded-lg bg-deep">
-        {cover ? (
-          <img
-            src={cover}
-            alt={`Cover art for ${song.title}`}
-            loading="lazy"
-            className="h-full w-full object-cover"
-          />
-        ) : (
-          <span aria-hidden="true" className="absolute inset-0 grid place-items-center text-3xl text-dust">
-            ♪
-          </span>
-        )}
+      <div className="flex items-center gap-x-4">
+        <div className="relative size-16 shrink-0 overflow-hidden rounded-md bg-deep">
+          {cover ? (
+            <img
+              src={cover}
+              alt={`Cover art for ${song.title}`}
+              loading="lazy"
+              className="h-full w-full object-cover"
+            />
+          ) : (
+            <span aria-hidden="true" className="absolute inset-0 grid place-items-center text-xl text-dust">
+              ♪
+            </span>
+          )}
+        </div>
+        <div className="min-w-0">
+          <p className="font-bold leading-snug text-paper">{song.title}</p>
+          <p className="text-sm text-dust">
+            {song.artist}
+            {song.year && <span className="tabular-nums"> · {song.year}</span>}
+          </p>
+        </div>
       </div>
-      <div className="mt-4 flex items-baseline justify-between gap-x-3">
-        {/* <span className="text-sm text-dust tabular-nums">{String(index + 1).padStart(2, "0")}</span> */}
+      {song.note && <p className="mt-4 text-xs leading-relaxed text-dust">{song.note}</p>}
+      <div className="mt-auto pt-4">
         <PlayButton player={player} link={song.spotify} label={song.title} />
       </div>
-      <p className="mt-2 text-lg font-bold text-paper">{song.title}</p>
-      <p className="text-sm text-dust">
-        {song.artist}
-        {song.year && <span className="tabular-nums"> · {song.year}</span>}
-      </p>
-      {song.note && <p className="mt-4 text-[0.9375rem] leading-relaxed text-dust">{song.note}</p>}
     </li>
   );
 }

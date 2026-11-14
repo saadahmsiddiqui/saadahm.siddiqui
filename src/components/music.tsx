@@ -1,14 +1,19 @@
 import type { ReactNode } from "react";
-import { /* artists, */ onRepeat, songs /* , stories */ } from "../content/music";
+import { onRepeat, songs } from "../content/music";
 import { useSpotifyPlayer } from "../hooks/use-spotify-player";
-// import { spotifyUri } from "../utilts"; // used by Stories
-import Container from "./container";
 import PageIntro from "./page-intro";
-import { PlayButton, PlayerBar } from "./player-bar";
+import { PlayButton } from "./player-bar";
 import SongCard from "./song-card";
-// import Timeline from "./timeline"; // used by Stories
 
-function Section({ id, label, children }: { id: string; label: string; children: ReactNode }) {
+function Section({
+  id,
+  label,
+  children,
+}: {
+  id: string;
+  label: string;
+  children: ReactNode;
+}) {
   return (
     <section className="mt-20" aria-labelledby={`${id}-heading`}>
       <h2 id={`${id}-heading`} className="mb-4 text-sm text-dust">
@@ -20,11 +25,10 @@ function Section({ id, label, children }: { id: string; label: string; children:
 }
 
 export default function Music() {
-  // One player for the whole page; every Play button sends its link here.
   const player = useSpotifyPlayer();
 
   return (
-    <Container className={player.current ? "pb-28" : ""}>
+    <>
       <PageIntro title="Music">
         Songs I keep coming back to, and the people who made them.
       </PageIntro>
@@ -36,16 +40,25 @@ export default function Music() {
               <span className="text-paper">{onRepeat.title}</span>
               <span className="text-dust"> — {onRepeat.artist}</span>
             </p>
-            <PlayButton player={player} link={onRepeat.spotify} label={onRepeat.title} />
+            <PlayButton
+              player={player}
+              link={onRepeat.spotify}
+              label={onRepeat.title}
+            />
           </div>
         </Section>
       )}
 
       {songs.length > 0 && (
         <Section id="songs" label="Songs">
-          <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
             {songs.map((song, i) => (
-              <SongCard key={`${song.title}-${song.artist}`} song={song} index={i} player={player} />
+              <SongCard
+                key={`${song.title}-${song.artist}`}
+                song={song}
+                index={i}
+                player={player}
+              />
             ))}
           </ul>
         </Section>
@@ -89,8 +102,6 @@ export default function Music() {
           />
         </Section>
       )} */}
-
-      <PlayerBar player={player} />
-    </Container>
+    </>
   );
 }

@@ -21,8 +21,8 @@ export const explore = [
   //   to: "/hobbies",
   // },
   {
-    title: "Music",
-    body: "My favorite albums and playlists from around the world.",
-    to: "/music",
+    title: "Media",
+    body: "Music, podcasts, and other forms of media I enjoy.",
+    to: "/media",
   }
 ] as const;
