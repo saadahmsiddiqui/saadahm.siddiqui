@@ -6,13 +6,12 @@ export default function Header() {
   return (
     <header className="flex items-center justify-between gap-6 text-sm">
       <Link to="/" className="flex items-center gap-3 text-paper">
-        <img
-          src={site.photo}
-          alt=""
-          width={32}
-          height={32}
-          className="h-8 w-8 rounded-full object-cover grayscale-[35%]"
-        />
+        <span
+          aria-hidden="true"
+          className="flex h-8 w-8 items-center justify-center rounded-full border border-deep text-sm font-light text-dust"
+        >
+          S
+        </span>
         <span className="hidden sm:inline">{site.name}</span>
       </Link>
 
