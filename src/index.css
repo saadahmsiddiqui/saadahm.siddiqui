@@ -71,3 +71,33 @@
     animation: none;
   }
 }
+
+/*
+ * Thin, solid scrollbar for inner scroll areas (song and movie tables).
+ * Chromium ignores ::-webkit-scrollbar sizing once scrollbar-width is set,
+ * so the standard properties are applied to Firefox only.
+ */
+@utility scrollbar-sleek {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--slate-7);
+    border-radius: 9999px;
+  }
+  &:hover::-webkit-scrollbar-thumb {
+    background: var(--slate-9);
+  }
+
+  @supports (-moz-appearance: none) {
+    scrollbar-width: thin;
+    scrollbar-color: var(--slate-7) transparent;
+
+    &:hover {
+      scrollbar-color: var(--slate-9) transparent;
+    }
+  }
+}

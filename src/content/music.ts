@@ -62,14 +62,14 @@ export const songs: Song[] = [
     spotify:
       "https://open.spotify.com/track/0BxE4FqsDD1Ot4YuBXwAPp?si=6f1be2865d83469f",
   },
-  // {
-  //   title: "One of the girls",
-  //   artist: "The Weeknd",
-  //   year: "2024",
-  //   note: "Some evenings she would play this song on repeat, and it would become the soundtrack to our nights together.",
-  //   spotify:
-  //     "https://open.spotify.com/track/1VNWdmXSbaNrnWod10WIL0?si=eee14af254d443e3",
-  // },
+  {
+    title: "One of the girls",
+    artist: "The Weeknd",
+    year: "2024",
+    note: "Some evenings she would play this song on repeat.",
+    spotify:
+      "https://open.spotify.com/track/1VNWdmXSbaNrnWod10WIL0?si=eee14af254d443e3",
+  },
   {
     title: "I Hold You",
     artist: "CLANN",
@@ -86,6 +86,36 @@ export const songs: Song[] = [
     spotify:
       "https://open.spotify.com/track/1ZHvGQZNz6HLbxhAtu7pin?si=1baa96cf12aa45ea",
   },
+  {
+    title: "Same Place",
+    artist: "JOY",
+    year: "2016",
+    note: "Same place reminds me of someone I have long lost connection to.",
+    spotify:
+      "https://open.spotify.com/track/3lF3qddTZBluxN5OnYWBYU",
+  },
+  {
+    title: "Saving All My Love",
+    artist: "Empara Mi",
+    year: "2020",
+    note: "It takes me back in time when the world felt simpler.",
+    spotify:
+      "https://open.spotify.com/track/2XuTDuzJVQxMwtQ8ec7UsM?si=74c54f16b80a4a83",
+  },
+  {
+    title: "Pretty Please",
+    artist: "Dutch Melrose, benny mayne",
+    year: "2024",
+    note: "Pleading for the pleasure you receive willingly.",
+    spotify:
+      "https://open.spotify.com/track/6kOdk29M8h6ZfHz4byVG0t?si=333e7fe24fd448b8",
+  }, {
+    title: "Speak in tongues",
+    artist: "machineheart",
+    year: "2024",
+    note: "Together we speak in tongues, speaking the language of the heart.",
+    spotify: "https://open.spotify.com/track/7vWbw3fF1WmPTYWREfV0fG?si=718aa3bd568e4864"
+  }
 ];
 
 export const artists: Artist[] = [
