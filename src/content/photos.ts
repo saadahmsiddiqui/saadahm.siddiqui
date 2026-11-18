@@ -12,7 +12,7 @@ const details = {
       "Leaving the station at Potsdamer Platz at dusk. You ride the escalator out of the ground and the city opens up above you through a lit glass grid: towers, the last blue of the sky, and the yellow lights coming on one by one.",
     alt: "Looking up through a glass roof lined with yellow lights at office towers at dusk, above a station entrance with escalators and a DB sign",
     place: "Potsdamer Platz, Berlin",
-    date: "2025-04-27",
+    date: "2026-04-27",
   },
   "IMG_2385.jpg": {
     title: "Spring, All at Once",
@@ -50,11 +50,11 @@ const details = {
     date: "2021-05-03",
   },
   "IMG_4033.jpg": {
-    title: "Two Karachis, One Skyline",
+    title: "Ego Sum Via Veritas et Vita",
     story:
-      "Captured from our office at Emerald Tower, this view offers a glimpse of Karachi’s ever-evolving skyline. Towering skyscrapers stand alongside densely packed neighbourhoods, where wealth and struggle exist just streets apart. A city of striking contrasts, where opportunities, privilege, and everyday realities paint two very different pictures of life in the same Karachi.",
-    alt: "Two Karachis One Skyline",
-    date: "2025-05-01",
+      "A church in the old town of Budapest, with a Latin inscription above the entrance. The words translate to 'I am the way, the truth, and the life', a reminder of the spiritual journey that awaits those who enter.",
+    alt: "Ego Sum Via Veritas et Vita",
+    date: "2026-05-01",
   },
 };
 /**

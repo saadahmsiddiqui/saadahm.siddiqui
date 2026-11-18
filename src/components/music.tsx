@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { onRepeat, songs } from "../content/music";
-import { useSpotifyPlayer } from "../hooks/use-spotify-player";
+import { SpotifyPlayer } from "../hooks/use-spotify-player";
 import PageIntro from "./page-intro";
 import { PlayButton } from "./player-bar";
 import SongCard from "./song-card";
@@ -24,9 +24,7 @@ function Section({
   );
 }
 
-export default function Music() {
-  const player = useSpotifyPlayer();
-
+export default function Music({ player }: { player: SpotifyPlayer }) {
   return (
     <>
       <PageIntro title="Music">

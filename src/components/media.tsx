@@ -9,7 +9,7 @@ export default function Media() {
 
   return (
     <Container className={player.current ? "pb-28" : ""}>
-      <Music />
+      <Music player={player} />
       <Movies />
 
       <PlayerBar player={player} />
