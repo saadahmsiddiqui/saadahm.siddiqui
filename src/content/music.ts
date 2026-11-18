@@ -58,23 +58,23 @@ export const songs: Song[] = [
     title: "505",
     artist: "Arctic Monkeys",
     year: "2024",
-    note: "A song that takes me back to a specific moment in time, evoking nostalgia and longing.",
+    note: "Evoking nostalgia and longing during our time in #123.",
     spotify:
       "https://open.spotify.com/track/0BxE4FqsDD1Ot4YuBXwAPp?si=6f1be2865d83469f",
   },
-  {
-    title: "One of the girls",
-    artist: "The Weeknd",
-    year: "2024",
-    note: "Some evenings she would play this song on repeat, and it would become the soundtrack to our nights together.",
-    spotify:
-      "https://open.spotify.com/track/1VNWdmXSbaNrnWod10WIL0?si=eee14af254d443e3",
-  },
+  // {
+  //   title: "One of the girls",
+  //   artist: "The Weeknd",
+  //   year: "2024",
+  //   note: "Some evenings she would play this song on repeat, and it would become the soundtrack to our nights together.",
+  //   spotify:
+  //     "https://open.spotify.com/track/1VNWdmXSbaNrnWod10WIL0?si=eee14af254d443e3",
+  // },
   {
     title: "I Hold You",
     artist: "CLANN",
     year: "2022",
-    note: "The air was thick with everything we hadn’t said yet, and that song translated every pulse. Now, those first few notes pull me straight back to the night the world narrowed down to just the two of us.",
+    note: "The time in Islamabad when the nights were long and conversations were endless.",
     spotify:
       "https://open.spotify.com/track/1FJBPuVMG4XkKIpE7tmhDm?si=dd14fea8cc5b4b37",
   },
@@ -82,7 +82,7 @@ export const songs: Song[] = [
     title: "Ma Meilleure Ennemie",
     artist: "Stromae, Coldplay",
     year: "2024",
-    note: "Her voice weaving Arabic and French through the old medinas, set against the pulse of Ma Meilleure Ennemie. It was passionate, completely new, and overwhelming—a memory locked forever in those first few notes.",
+    note: "Reminds me of my french adventures in the medinas of Rabat, Morocco.",
     spotify:
       "https://open.spotify.com/track/1ZHvGQZNz6HLbxhAtu7pin?si=1baa96cf12aa45ea",
   },

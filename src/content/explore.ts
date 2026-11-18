@@ -8,7 +8,7 @@ export const explore = [
   {
     title: "Work experience",
     body: "Eight roles across Karachi, Berlin and remote teams.",
-    to: "/#experience",
+    to: "/work-experience",
   },
   {
     title: "Photography",

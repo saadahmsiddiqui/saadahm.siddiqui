@@ -44,10 +44,18 @@ const details = {
   },
   "IMG_3521.jpg": {
     title: "Two Karachis, One Skyline",
-    story: "Captured from our office at Emerald Tower, this view offers a glimpse of Karachi’s ever-evolving skyline. Towering skyscrapers stand alongside densely packed neighbourhoods, where wealth and struggle exist just streets apart. A city of striking contrasts, where opportunities, privilege, and everyday realities paint two very different pictures of life in the same Karachi.",
+    story:
+      "Captured from our office at Emerald Tower, this view offers a glimpse of Karachi’s ever-evolving skyline. Towering skyscrapers stand alongside densely packed neighbourhoods, where wealth and struggle exist just streets apart. A city of striking contrasts, where opportunities, privilege, and everyday realities paint two very different pictures of life in the same Karachi.",
     alt: "Two Karachis One Skyline",
     date: "2021-05-03",
-  }
+  },
+  "IMG_4033.jpg": {
+    title: "Two Karachis, One Skyline",
+    story:
+      "Captured from our office at Emerald Tower, this view offers a glimpse of Karachi’s ever-evolving skyline. Towering skyscrapers stand alongside densely packed neighbourhoods, where wealth and struggle exist just streets apart. A city of striking contrasts, where opportunities, privilege, and everyday realities paint two very different pictures of life in the same Karachi.",
+    alt: "Two Karachis One Skyline",
+    date: "2025-05-01",
+  },
 };
 /**
  * Photos for /photography. Every image in src/assets/gallery/ is shown

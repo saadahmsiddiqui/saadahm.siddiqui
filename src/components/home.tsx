@@ -1,10 +1,9 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router";
-import { entriesOfKind, formatYears } from "../content/entries";
 import Container from "./container";
 import Explore from "./explore";
+import Quotes from "./quotes";
 import SignalField from "./signal-field";
-import Timeline from "./timeline";
 
 export default function Home() {
   const { hash, key } = useLocation();
@@ -17,16 +16,6 @@ export default function Home() {
       .getElementById(hash.slice(1))
       ?.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
   }, [hash, key]);
-
-  const work = entriesOfKind("work").map((entry) => ({
-    id: entry.title,
-    when: formatYears(entry),
-    title: entry.title,
-    detail: entry.detail,
-    description: entry.description,
-    meta: entry.place && `${entry.place}${entry.remote ? " (remote)" : ""}`,
-    href: entry.href,
-  }));
 
   return (
     <>
@@ -48,17 +37,7 @@ export default function Home() {
 
       <Container>
         <Explore />
-
-        <section
-          id="experience"
-          className="mt-24 scroll-mt-10"
-          aria-labelledby="work-heading"
-        >
-          <h2 id="work-heading" className="mb-8 text-sm text-dust">
-            Where I’ve worked
-          </h2>
-          <Timeline items={work} />
-        </section>
+        <Quotes />
       </Container>
     </>
   );
