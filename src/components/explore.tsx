@@ -9,12 +9,16 @@ export default function Explore() {
       </h2>
       {/* gap-px over a border-coloured background draws hairlines between cells */}
       <ul className="grid gap-px overflow-hidden rounded-md border border-deep bg-deep sm:grid-cols-2">
-        {explore.map((item) => (
+        {explore.map(({ icon: Icon, ...item }) => (
           <li key={item.to} className="bg-ink">
             <Link
               to={item.to}
               className="group block h-full p-6 transition-colors hover:bg-[var(--slate-2)] focus-visible:-outline-offset-2 sm:p-8"
             >
+              <Icon
+                aria-hidden="true"
+                className="mb-4 size-6 text-dust transition-colors group-hover:text-lamp"
+              />
               <span className="block text-xl text-paper transition-colors group-hover:text-lamp">
                 {item.title}
               </span>

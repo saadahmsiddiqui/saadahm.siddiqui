@@ -366,5 +366,45 @@
     "description": "Web-swinging across New York rooftops to clear Peter Parker's name, facing Venom, Scorpion, Mysterio and Doc Ock, with Stan Lee narrating.",
     "link": "https://en.wikipedia.org/wiki/Spider-Man_(2000_video_game)",
     "cover": "spider-man-2000.jpg"
+  },
+  {
+    "name": "Need for Speed: Most Wanted",
+    "year": 2012,
+    "developer": "Criterion Games",
+    "description": "Criterion's open-world reboot: find cars parked around Fairhaven, take on the city's ten Most Wanted racers and outrun relentless police.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted_(2012_video_game)",
+    "cover": "nfs-mw-2012.jpg"
+  },
+  {
+    "name": "Need for Speed: The Run",
+    "year": 2011,
+    "developer": "EA Black Box",
+    "description": "Jack Rourke races coast to coast from San Francisco to New York in an illegal cross-country race, with the mob and the police on his tail.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed:_The_Run",
+    "cover": "nfs-the-run.jpg"
+  },
+  {
+    "name": "Hitman: Blood Money",
+    "year": 2006,
+    "developer": "IO Interactive",
+    "description": "Agent 47 takes contracts across America, staging accidents and slipping through crowds, as a rival agency hunts him and the ICA.",
+    "link": "https://en.wikipedia.org/wiki/Hitman:_Blood_Money",
+    "cover": "hitman-blood-money.jpg"
+  },
+  {
+    "name": "Hitman: Absolution",
+    "year": 2012,
+    "developer": "IO Interactive",
+    "description": "Agent 47 goes rogue to protect a girl named Victoria, hiding in plain sight through Chicago and small-town South Dakota with disguises and Instinct.",
+    "link": "https://en.wikipedia.org/wiki/Hitman:_Absolution",
+    "cover": "hitman-absolution.jpg"
+  },
+  {
+    "name": "Hitman: Codename 47",
+    "year": 2000,
+    "developer": "IO Interactive",
+    "description": "The debut of Agent 47, a cloned assassin who takes contracts from Hong Kong to Rotterdam and uncovers the truth about his own creation.",
+    "link": "https://en.wikipedia.org/wiki/Hitman:_Codename_47",
+    "cover": "hitman-codename-47.jpg"
   }
 ]
