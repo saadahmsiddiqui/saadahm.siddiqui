@@ -24,5 +24,10 @@ export const explore = [
     title: "Media",
     body: "Music, podcasts, and other forms of media I enjoy.",
     to: "/media",
+  },
+  {
+    title: "Gaming",
+    body: "Video games that I play or have enjoyed in the past.",
+    to: "/gaming"
   }
 ] as const;

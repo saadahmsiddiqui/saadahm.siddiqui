@@ -7,6 +7,7 @@ import Photography from "./components/photography";
 import Hobbies from "./components/hobbies";
 import Media from "./components/media";
 import WorkExperience from "./components/work-experience";
+import Gaming from "./components/gaming";
 
 function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ function AppRoutes() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="gaming" element={<Gaming />} />
         <Route path="media" element={<Media />} />
         <Route path="photography" element={<Photography />} />
         <Route path="work-experience" element={<WorkExperience />} />

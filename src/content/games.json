@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Grand Theft Auto: Vice City",
+    "year": 2002,
+    "developer": "Rockstar North",
+    "description": "Tommy Vercetti fights his way to the top of a neon-soaked, 1980s Miami-inspired crime empire, set to one of the best soundtracks in gaming.",
+    "link": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+    "cover": "vice-city.jpg"
+  },
+  {
+    "name": "Grand Theft Auto: San Andreas",
+    "year": 2004,
+    "developer": "Rockstar North",
+    "description": "CJ returns home to Grove Street after his mother's murder and is pulled back into gang life across an early-'90s state spanning three cities, countryside and desert.",
+    "link": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas",
+    "cover": "san-andreas.jpg"
+  },
+  {
+    "name": "Grand Theft Auto IV",
+    "year": 2008,
+    "developer": "Rockstar North",
+    "description": "Niko Bellic arrives in Liberty City chasing the American Dream and a past he can't outrun, in the series' grittiest, most grounded story.",
+    "link": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV",
+    "cover": "gta-4.jpg"
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "year": 2013,
+    "developer": "Rockstar North",
+    "description": "Three very different criminals, Michael, Franklin and Trevor, pull off a string of heists across Los Santos and Blaine County.",
+    "link": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+    "cover": "gta-5.jpg"
+  },
+  {
+    "name": "Grand Theft Auto VI",
+    "year": 2026,
+    "developer": "Rockstar Games",
+    "description": "Lucia and Jason, a criminal duo, are caught up in a conspiracy across the state of Leonida after a simple job goes wrong. The series returns to Vice City.",
+    "link": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+    "cover": "gta-6.png"
+  },
+  {
+    "name": "PUBG: Battlegrounds",
+    "year": 2017,
+    "developer": "PUBG Studios",
+    "description": "100 players parachute onto an island, scavenge for gear and fight to be the last one standing as the play zone shrinks.",
+    "link": "https://en.wikipedia.org/wiki/PUBG:_Battlegrounds",
+    "cover": "pubg.jpg"
+  },
+  {
+    "name": "Counter-Strike 1.6",
+    "year": 2003,
+    "developer": "Valve",
+    "description": "Terrorists versus Counter-Terrorists in tight, round-based firefights. The LAN-café classic that defined competitive shooters.",
+    "link": "https://en.wikipedia.org/wiki/Counter-Strike_(video_game)",
+    "cover": "cs-16.jpg"
+  },
+  {
+    "name": "Counter-Strike 2",
+    "year": 2023,
+    "developer": "Valve",
+    "description": "The Source 2 rebuild of Counter-Strike, with reworked maps, responsive smoke grenades and sub-tick servers.",
+    "link": "https://en.wikipedia.org/wiki/Counter-Strike_2",
+    "cover": "cs-2.jpg"
+  },
+  {
+    "name": "Rocket League",
+    "year": 2015,
+    "developer": "Psyonix",
+    "description": "Football, but with rocket-powered cars. Easy to pick up, and the aerial mechanics take years to master.",
+    "link": "https://en.wikipedia.org/wiki/Rocket_League",
+    "cover": "rocket-league.jpg"
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "year": 2018,
+    "developer": "Rockstar Games",
+    "description": "Arthur Morgan rides with the Van der Linde gang as the outlaw era dies around them, in a vast and patient portrait of 1899 America.",
+    "link": "https://en.wikipedia.org/wiki/Red_Dead_Redemption_2",
+    "cover": "rdr-2.jpg"
+  },
+  {
+    "name": "Cities: Skylines",
+    "year": 2015,
+    "developer": "Colossal Order",
+    "description": "Build a city from a single road: zone it, power it, untangle its traffic and keep the citizens happy as it grows into a metropolis.",
+    "link": "https://en.wikipedia.org/wiki/Cities:_Skylines",
+    "cover": "cities-skylines.jpg"
+  },
+  {
+    "name": "Need for Speed: Underground",
+    "year": 2003,
+    "developer": "EA Black Box",
+    "description": "Night-time street racing and deep tuning culture, with neon underglow, body kits and Nu-metal blaring through rain-slick city streets.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed:_Underground",
+    "cover": "nfs-u.jpg"
+  },
+  {
+    "name": "Need for Speed: Underground 2",
+    "year": 2004,
+    "developer": "EA Black Box",
+    "description": "The underground scene goes open-world in Bayview, with even deeper customisation and SUVs joining the street races.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed:_Underground_2",
+    "cover": "nfs-u2.jpg"
+  },
+  {
+    "name": "Need for Speed: Most Wanted",
+    "year": 2005,
+    "developer": "EA Black Box",
+    "description": "Climb Rockport's Blacklist to win back your BMW M3 GTR, while relentless police pursuits escalate all the way to helicopters and roadblocks.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted_(2005_video_game)",
+    "cover": "nfs-mw.jpg"
+  },
+  {
+    "name": "Need for Speed: Carbon",
+    "year": 2006,
+    "developer": "EA Black Box",
+    "description": "Return to Palmont City to take its districts from rival crews, settling each one with a duel down a twisting canyon road.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed:_Carbon",
+    "cover": "nfs-carbon.jpg"
+  },
+  {
+    "name": "Need for Speed Payback",
+    "year": 2017,
+    "developer": "Ghost Games",
+    "description": "Tyler, Mac and Jess take on the cartel that rigs every race in Fortune Valley, through heists, high-speed chases and off-road events.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed_Payback",
+    "cover": "nfs-payback.jpg"
+  },
+  {
+    "name": "Freedom Fighters",
+    "year": 2003,
+    "developer": "IO Interactive",
+    "description": "In an alternate history where the Soviet Union has invaded New York, plumber Chris Stone leads a growing squad of resistance fighters to take the city back.",
+    "link": "https://en.wikipedia.org/wiki/Freedom_Fighters_(video_game)",
+    "cover": "freedom-fighters.jpg"
+  },
+  {
+    "name": "Call of Duty 2",
+    "year": 2005,
+    "developer": "Infinity Ward",
+    "description": "Second World War campaigns as Soviet, British and American soldiers, from the defence of Moscow to the cliffs of Pointe du Hoc.",
+    "link": "https://en.wikipedia.org/wiki/Call_of_Duty_2",
+    "cover": "cod-2.jpg"
+  },
+  {
+    "name": "Virtua Cop 2",
+    "year": 1995,
+    "developer": "Sega AM2",
+    "description": "An on-rails light-gun shooter: the Virtua City Police chase EVL Inc. through car chases, a cruise ship and a subway, and you must spare the civilians.",
+    "link": "https://en.wikipedia.org/wiki/Virtua_Cop_2",
+    "cover": "virtua-cop-2.jpg"
+  },
+  {
+    "name": "The House of the Dead",
+    "year": 1996,
+    "developer": "Sega AM1",
+    "description": "Agents Thomas Rogan and G storm Dr. Curien's mansion in a light-gun shooter full of zombies, branching paths and hostages to save.",
+    "link": "https://en.wikipedia.org/wiki/The_House_of_the_Dead_(video_game)",
+    "cover": "hotd.jpg"
+  },
+  {
+    "name": "The House of the Dead 2",
+    "year": 1998,
+    "developer": "Sega AM1",
+    "description": "Agents James Taylor and Gary Stewart fight through a zombie-overrun Venice, gloriously cheesy voice acting and all.",
+    "link": "https://en.wikipedia.org/wiki/The_House_of_the_Dead_2",
+    "cover": "hotd-2.png"
+  },
+  {
+    "name": "Project I.G.I.",
+    "year": 2000,
+    "developer": "Innerloop Studios",
+    "description": "Ex-SAS operative David Jones infiltrates sprawling military bases across Eastern Europe to recover a stolen nuclear warhead.",
+    "link": "https://en.wikipedia.org/wiki/Project_I.G.I.",
+    "cover": "project-igi.jpg"
+  },
+  {
+    "name": "Sleeping Dogs",
+    "year": 2012,
+    "developer": "United Front Games",
+    "description": "Undercover cop Wei Shen infiltrates the Sun On Yee triad in Hong Kong, with brutal martial-arts brawls and loyalties pulled in both directions.",
+    "link": "https://en.wikipedia.org/wiki/Sleeping_Dogs_(video_game)",
+    "cover": "sleeping-dogs.jpg"
+  },
+  {
+    "name": "Watch Dogs 2",
+    "year": 2016,
+    "developer": "Ubisoft Montreal",
+    "description": "Hacker Marcus Holloway and DedSec take on a city-wide surveillance system across a sunny, satirical San Francisco Bay Area.",
+    "link": "https://en.wikipedia.org/wiki/Watch_Dogs_2",
+    "cover": "watch-dogs-2.jpg"
+  },
+  {
+    "name": "Just Cause 3",
+    "year": 2015,
+    "developer": "Avalanche Studios",
+    "description": "Rico Rodriguez returns to his Mediterranean homeland of Medici to topple a dictator, with a grappling hook, a wingsuit and an absurd amount of explosives.",
+    "link": "https://en.wikipedia.org/wiki/Just_Cause_3",
+    "cover": "just-cause-3.jpg"
+  },
+  {
+    "name": "Need for Speed Rivals",
+    "year": 2013,
+    "developer": "Ghost Games",
+    "description": "Racers and cops chase each other across Redview County, playing either side and putting their speed points at risk in every pursuit.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed_Rivals",
+    "cover": "nfs-rivals.jpg"
+  },
+  {
+    "name": "Horizon Zero Dawn",
+    "year": 2017,
+    "developer": "Guerrilla Games",
+    "description": "Outcast hunter Aloy explores a post-apocalyptic world ruled by animal-like machines, uncovering what ended the old civilisation.",
+    "link": "https://en.wikipedia.org/wiki/Horizon_Zero_Dawn",
+    "cover": "horizon-zero-dawn.jpg"
+  },
+  {
+    "name": "House Flipper",
+    "year": 2018,
+    "developer": "Empyrean",
+    "description": "Buy run-down houses, then clean, repair and redecorate them room by room before selling them on for a profit.",
+    "link": "https://en.wikipedia.org/wiki/House_Flipper",
+    "cover": "house-flipper.jpg"
+  },
+  {
+    "name": "Mini Metro",
+    "year": 2015,
+    "developer": "Dinosaur Polo Club",
+    "description": "Draw subway lines for a growing city and keep passengers moving as new stations appear and the network strains to keep up.",
+    "link": "https://en.wikipedia.org/wiki/Mini_Metro_(video_game)",
+    "cover": "mini-metro.jpg"
+  },
+  {
+    "name": "Animal Crossing: New Horizons",
+    "year": 2020,
+    "developer": "Nintendo EPD",
+    "description": "Move to a deserted island and slowly turn it into a home, one fish, fossil, furniture piece and animal neighbour at a time.",
+    "link": "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons",
+    "cover": "animal-crossing-nh.jpg"
+  },
+  {
+    "name": "GRID",
+    "year": 2019,
+    "developer": "Codemasters",
+    "description": "Circuit racing in touring cars, muscle cars and hypercars, where rival drivers remember who rammed them and race you harder for it.",
+    "link": "https://en.wikipedia.org/wiki/Grid_(2019_video_game)",
+    "cover": "grid-2019.jpg"
+  },
+  {
+    "name": "Saints Row: The Third",
+    "year": 2011,
+    "developer": "Volition",
+    "description": "The Third Street Saints, now celebrity gangsters, are thrown into the city of Steelport and take it over with absurd weapons, tanks and zero restraint.",
+    "link": "https://en.wikipedia.org/wiki/Saints_Row:_The_Third",
+    "cover": "saints-row-3.jpg"
+  },
+  {
+    "name": "Max Payne 2: The Fall of Max Payne",
+    "year": 2003,
+    "developer": "Remedy Entertainment",
+    "description": "A film-noir love story told in graphic-novel panels: NYPD detective Max Payne is drawn back to Mona Sax, with bullet time and ragdoll physics in every shootout.",
+    "link": "https://en.wikipedia.org/wiki/Max_Payne_2:_The_Fall_of_Max_Payne",
+    "cover": "max-payne-2.jpg"
+  },
+  {
+    "name": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+    "year": 2021,
+    "developer": "Grove Street Games",
+    "description": "Remastered versions of GTA III, Vice City and San Andreas, with updated lighting, modern controls and GTA V-style weapon wheels.",
+    "link": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_The_Trilogy_%E2%80%93_The_Definitive_Edition",
+    "cover": "gta-trilogy.jpg"
+  },
+  {
+    "name": "Far Cry 4",
+    "year": 2014,
+    "developer": "Ubisoft Montreal",
+    "description": "Ajay Ghale returns to the Himalayan nation of Kyrat to scatter his mother's ashes and is caught in a civil war against the flamboyant dictator Pagan Min.",
+    "link": "https://en.wikipedia.org/wiki/Far_Cry_4",
+    "cover": "far-cry-4.jpg"
+  },
+  {
+    "name": "Cricket 07",
+    "year": 2006,
+    "developer": "HB Studios & EA Canada",
+    "description": "Full international cricket with licensed teams, the Ashes and the World Cup, and the go-to game for modding in updated squads for years afterwards.",
+    "link": "https://en.wikipedia.org/wiki/Cricket_07",
+    "cover": "cricket-07.png"
+  },
+  {
+    "name": "FIFA 15",
+    "year": 2014,
+    "developer": "EA Canada",
+    "description": "Club and international football with a new emotional-intelligence system for players, physical goalkeepers and the ever-addictive Ultimate Team.",
+    "link": "https://en.wikipedia.org/wiki/FIFA_15",
+    "cover": "fifa-15.jpg"
+  },
+  {
+    "name": "Duck Hunt",
+    "year": 1984,
+    "developer": "Nintendo R&D1",
+    "description": "Point the NES Zapper light gun at the TV and shoot ducks out of the sky, while the dog laughs at every miss.",
+    "link": "https://en.wikipedia.org/wiki/Duck_Hunt",
+    "cover": "duck-hunt.jpg"
+  },
+  {
+    "name": "Woody Woodpecker Racing",
+    "year": 2000,
+    "developer": "Syrox Developments",
+    "description": "A cartoon kart racer starring Woody Woodpecker and friends, with power-ups, shortcuts and tracks themed on their animated world.",
+    "link": "https://en.wikipedia.org/wiki/Woody_Woodpecker_Racing",
+    "cover": "woody-woodpecker-racing.jpg"
+  },
+  {
+    "name": "Autobahn Raser II",
+    "year": 1999,
+    "developer": "Davilex Games",
+    "description": "Flat-out racing through traffic on real stretches of the German Autobahn, with the police never far behind.",
+    "link": "https://www.mobygames.com/game/35964/autobahn-raser-ii/",
+    "cover": "autobahn-raser-2.jpg"
+  },
+  {
+    "name": "Need for Speed II",
+    "year": 1997,
+    "developer": "EA Canada & EA Seattle",
+    "description": "Exotic supercars like the McLaren F1 and Ferrari F50 racing point-to-point across scenic tracks around the world.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed_II",
+    "cover": "nfs-2.jpg"
+  },
+  {
+    "name": "Pepsiman",
+    "year": 1999,
+    "developer": "KID",
+    "description": "The Pepsi mascot sprints, slides and skateboards through obstacle-packed stages to deliver cans to thirsty people, between live-action ads of a man drinking Pepsi.",
+    "link": "https://en.wikipedia.org/wiki/Pepsiman_(video_game)",
+    "cover": "pepsiman.jpg"
+  },
+  {
+    "name": "Gran Turismo 2",
+    "year": 1999,
+    "developer": "Polyphony Digital",
+    "description": "The real driving simulator on PlayStation: licence tests, rally events and a garage of over 600 cars to buy, tune and race.",
+    "link": "https://en.wikipedia.org/wiki/Gran_Turismo_2",
+    "cover": "gran-turismo-2.jpg"
+  },
+  {
+    "name": "Battlefield 4",
+    "year": 2013,
+    "developer": "DICE",
+    "description": "Large-scale combined-arms warfare across land, sea and air, where skyscrapers and dams can be brought down mid-match.",
+    "link": "https://en.wikipedia.org/wiki/Battlefield_4",
+    "cover": "battlefield-4.jpg"
+  },
+  {
+    "name": "Twisted Metal 2",
+    "year": 1996,
+    "developer": "SingleTrac",
+    "description": "Vehicular combat in arenas around the world, from Los Angeles to Paris, as Calypso's contest rewards the last driver standing with any wish they want.",
+    "link": "https://en.wikipedia.org/wiki/Twisted_Metal_2",
+    "cover": "twisted-metal-2.jpg"
+  },
+  {
+    "name": "Spider-Man",
+    "year": 2000,
+    "developer": "Neversoft",
+    "description": "Web-swinging across New York rooftops to clear Peter Parker's name, facing Venom, Scorpion, Mysterio and Doc Ock, with Stan Lee narrating.",
+    "link": "https://en.wikipedia.org/wiki/Spider-Man_(2000_video_game)",
+    "cover": "spider-man-2000.jpg"
+  }
+]
