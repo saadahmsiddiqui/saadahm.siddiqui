@@ -23,6 +23,9 @@
   --font-sans: "Lato", system-ui, sans-serif;
 }
 
+/* Wide screens with a real pointer: Explore becomes a hover-to-select panel. */
+@custom-variant stage (@media (hover: hover) and (min-width: 64rem));
+
 @layer base {
   html {
     color-scheme: dark;

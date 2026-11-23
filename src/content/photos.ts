@@ -74,17 +74,26 @@ export type PhotoDetails = {
 
 export const photoDetails: Record<string, PhotoDetails> = details;
 
-export type Photo = PhotoDetails & { file: string; src: string };
+export type Photo = PhotoDetails & { file: string; src: string; thumb: string };
 
 const images = import.meta.glob<string>(
   "../assets/gallery/*.{jpg,jpeg,png,webp,avif,JPG,JPEG,PNG,WEBP}",
   { eager: true, import: "default" },
 );
 
+// Small copies named after the photo, e.g. thumbs/IMG_0022.webp. Photos without
+// one fall back to the full-size image.
+const thumbs = import.meta.glob<string>("../assets/gallery/thumbs/*.webp", {
+  eager: true,
+  import: "default",
+});
+
 export const photos: Photo[] = Object.entries(images)
   .map(([path, src]) => {
     const file = path.split("/").pop()!;
-    return { file, src, ...photoDetails[file] };
+    const name = file.replace(/\.[^.]+$/, "");
+    const thumb = thumbs[`../assets/gallery/thumbs/${name}.webp`] ?? src;
+    return { file, src, thumb, ...photoDetails[file] };
   })
   .sort(
     (a, b) =>

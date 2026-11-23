@@ -1,6 +1,7 @@
 import { LuBriefcase, LuCamera, LuClapperboard, LuCode, LuGamepad2 } from "react-icons/lu";
 
-// The Explore section on the home page. `icon` is shown above each title.
+// The Explore section on the home page. Each page's preview is in
+// components/explore-preview.tsx, keyed by `to`.
 export const explore = [
   {
     title: "Projects",
