@@ -1,7 +1,10 @@
 import { useEffect, useRef, useState } from "react";
+import { FaHeart } from "react-icons/fa";
 import { GAMES, gameCoverSrc, type Game } from "../content/gaming";
 
 const games = [...GAMES].sort((a, b) => a.year - b.year);
+
+const lovedGames = games.filter((game) => game.loved);
 
 const BATCH_SIZE = 12;
 
@@ -25,6 +28,13 @@ function Cover({ game }: { game: Game }) {
           className="absolute inset-0 grid place-items-center p-4 text-center text-lg font-light text-dust"
         >
           {game.name}
+        </span>
+      )}
+      {game.loved && (
+        // Always visible on touch screens, which have no hover.
+        <span className="absolute right-2 top-2 grid size-8 scale-75 place-items-center rounded-full bg-ink/80 text-lamp opacity-0 transition duration-300 group-hover:scale-100 group-hover:opacity-100 group-focus-visible:scale-100 group-focus-visible:opacity-100 [@media(hover:none)]:scale-100 [@media(hover:none)]:opacity-100">
+          <FaHeart aria-hidden="true" className="size-4" />
+          <span className="sr-only">Loved</span>
         </span>
       )}
     </div>
@@ -66,6 +76,28 @@ function GameCard({ game }: { game: Game }) {
   );
 }
 
+function GameGrid({ games }: { games: Game[] }) {
+  return (
+    <ul className="grid grid-cols-2 gap-x-3 gap-y-8 sm:grid-cols-4 lg:grid-cols-6">
+      {games.map((game) => (
+        <GameCard key={game.id} game={game} />
+      ))}
+    </ul>
+  );
+}
+
+/** The games marked `loved` in games.json. */
+export function LovedGames() {
+  if (lovedGames.length === 0) return null;
+
+  return (
+    <section className="mt-16">
+      <p className="mb-4 font-sans text-sm text-dust">Games I absolutely loved</p>
+      <GameGrid games={lovedGames} />
+    </section>
+  );
+}
+
 /** Every game played, as cover-art tiles sorted by release year. Shows 12 at
  *  first and reveals 12 more each time the end of the grid scrolls into view. */
 export default function Games() {
@@ -96,11 +128,7 @@ export default function Games() {
   return (
     <section className="mt-16">
       <p className="mb-4 font-sans text-sm text-dust">Games I've played</p>
-      <ul className="grid grid-cols-2 gap-x-3 gap-y-8 sm:grid-cols-4 lg:grid-cols-6">
-        {games.slice(0, visible).map((game) => (
-          <GameCard key={game.name} game={game} />
-        ))}
-      </ul>
+      <GameGrid games={games.slice(0, visible)} />
       {hasMore && <div ref={sentinelRef} aria-hidden="true" className="h-px" />}
     </section>
   );

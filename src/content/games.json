@@ -1,21 +1,26 @@
 [
   {
+    "id": "d87027ec-a7bf-4b41-a789-dd1cb75a108c",
     "name": "Grand Theft Auto: Vice City",
     "year": 2002,
     "developer": "Rockstar North",
     "description": "Tommy Vercetti fights his way to the top of a neon-soaked, 1980s Miami-inspired crime empire, set to one of the best soundtracks in gaming.",
     "link": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
-    "cover": "vice-city.jpg"
+    "cover": "vice-city.jpg",
+    "loved": true
   },
   {
+    "id": "cb85300e-e724-47f5-8095-13c4df553915",
     "name": "Grand Theft Auto: San Andreas",
     "year": 2004,
     "developer": "Rockstar North",
     "description": "CJ returns home to Grove Street after his mother's murder and is pulled back into gang life across an early-'90s state spanning three cities, countryside and desert.",
     "link": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas",
-    "cover": "san-andreas.jpg"
+    "cover": "san-andreas.jpg",
+    "loved": true
   },
   {
+    "id": "cbd6ba3c-98c6-4707-b6e8-dd49b283187f",
     "name": "Grand Theft Auto IV",
     "year": 2008,
     "developer": "Rockstar North",
@@ -24,6 +29,7 @@
     "cover": "gta-4.jpg"
   },
   {
+    "id": "45f69ab1-3de7-4462-9aff-20ad2193e1df",
     "name": "Grand Theft Auto V",
     "year": 2013,
     "developer": "Rockstar North",
@@ -32,14 +38,17 @@
     "cover": "gta-5.jpg"
   },
   {
+    "id": "6bb7f362-c8e2-4f10-9236-4c9f92b331b9",
     "name": "Grand Theft Auto VI",
     "year": 2026,
     "developer": "Rockstar Games",
     "description": "Lucia and Jason, a criminal duo, are caught up in a conspiracy across the state of Leonida after a simple job goes wrong. The series returns to Vice City.",
     "link": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-    "cover": "gta-6.png"
+    "cover": "gta-6.png",
+    "loved": true
   },
   {
+    "id": "eb2645d0-9866-42b5-84bd-788e3843a45f",
     "name": "PUBG: Battlegrounds",
     "year": 2017,
     "developer": "PUBG Studios",
@@ -48,6 +57,7 @@
     "cover": "pubg.jpg"
   },
   {
+    "id": "f6b43bf0-daca-4a20-803e-45af60b0478b",
     "name": "Counter-Strike 1.6",
     "year": 2003,
     "developer": "Valve",
@@ -56,6 +66,7 @@
     "cover": "cs-16.jpg"
   },
   {
+    "id": "8d882fd8-72f8-4a69-9ddc-c4cd1b26373a",
     "name": "Counter-Strike 2",
     "year": 2023,
     "developer": "Valve",
@@ -64,14 +75,17 @@
     "cover": "cs-2.jpg"
   },
   {
+    "id": "f4ebc15c-a941-4b4f-9840-cb894da184e7",
     "name": "Rocket League",
     "year": 2015,
     "developer": "Psyonix",
     "description": "Football, but with rocket-powered cars. Easy to pick up, and the aerial mechanics take years to master.",
     "link": "https://en.wikipedia.org/wiki/Rocket_League",
-    "cover": "rocket-league.jpg"
+    "cover": "rocket-league.jpg",
+    "loved": true
   },
   {
+    "id": "9a8c2b29-86d1-4510-8286-b10363d1f097",
     "name": "Red Dead Redemption 2",
     "year": 2018,
     "developer": "Rockstar Games",
@@ -80,6 +94,7 @@
     "cover": "rdr-2.jpg"
   },
   {
+    "id": "d4c2ac24-960c-4f4f-8e63-d246d1b7b4f6",
     "name": "Cities: Skylines",
     "year": 2015,
     "developer": "Colossal Order",
@@ -88,6 +103,7 @@
     "cover": "cities-skylines.jpg"
   },
   {
+    "id": "c94c0c21-9e94-4899-8082-86ae58c3be98",
     "name": "Need for Speed: Underground",
     "year": 2003,
     "developer": "EA Black Box",
@@ -96,6 +112,7 @@
     "cover": "nfs-u.jpg"
   },
   {
+    "id": "15dd7e55-1453-4e4b-96fd-b45ab0d65efb",
     "name": "Need for Speed: Underground 2",
     "year": 2004,
     "developer": "EA Black Box",
@@ -104,14 +121,17 @@
     "cover": "nfs-u2.jpg"
   },
   {
+    "id": "125a7896-8c52-48b4-a65d-ea4ec38d2750",
     "name": "Need for Speed: Most Wanted",
     "year": 2005,
     "developer": "EA Black Box",
     "description": "Climb Rockport's Blacklist to win back your BMW M3 GTR, while relentless police pursuits escalate all the way to helicopters and roadblocks.",
     "link": "https://en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted_(2005_video_game)",
-    "cover": "nfs-mw.jpg"
+    "cover": "nfs-mw.jpg",
+    "loved": true
   },
   {
+    "id": "7c5de264-b580-4d37-a432-0762405530df",
     "name": "Need for Speed: Carbon",
     "year": 2006,
     "developer": "EA Black Box",
@@ -120,6 +140,7 @@
     "cover": "nfs-carbon.jpg"
   },
   {
+    "id": "561430fe-18ec-424f-87a3-ec9ab0705839",
     "name": "Need for Speed Payback",
     "year": 2017,
     "developer": "Ghost Games",
@@ -128,6 +149,7 @@
     "cover": "nfs-payback.jpg"
   },
   {
+    "id": "f604bddc-933d-4c53-a8d3-35c44fb7de2b",
     "name": "Freedom Fighters",
     "year": 2003,
     "developer": "IO Interactive",
@@ -136,6 +158,7 @@
     "cover": "freedom-fighters.jpg"
   },
   {
+    "id": "7a263b40-5d51-41af-9c2f-d286df4003bb",
     "name": "Call of Duty 2",
     "year": 2005,
     "developer": "Infinity Ward",
@@ -144,6 +167,7 @@
     "cover": "cod-2.jpg"
   },
   {
+    "id": "dc041f8a-5a93-4dcf-b68c-cedaae0a76ba",
     "name": "Virtua Cop 2",
     "year": 1995,
     "developer": "Sega AM2",
@@ -152,6 +176,7 @@
     "cover": "virtua-cop-2.jpg"
   },
   {
+    "id": "b12175e6-b614-4747-9e8c-1e65ffb70323",
     "name": "The House of the Dead",
     "year": 1996,
     "developer": "Sega AM1",
@@ -160,6 +185,7 @@
     "cover": "hotd.jpg"
   },
   {
+    "id": "528a4054-dda6-4fa7-ada9-102f2fd48255",
     "name": "The House of the Dead 2",
     "year": 1998,
     "developer": "Sega AM1",
@@ -168,6 +194,7 @@
     "cover": "hotd-2.png"
   },
   {
+    "id": "5f4a3d95-0c2a-4de2-8e77-3a38dc46bf53",
     "name": "Project I.G.I.",
     "year": 2000,
     "developer": "Innerloop Studios",
@@ -176,14 +203,17 @@
     "cover": "project-igi.jpg"
   },
   {
+    "id": "856a005c-bf94-4eea-aafe-ad14509b6e12",
     "name": "Sleeping Dogs",
     "year": 2012,
     "developer": "United Front Games",
     "description": "Undercover cop Wei Shen infiltrates the Sun On Yee triad in Hong Kong, with brutal martial-arts brawls and loyalties pulled in both directions.",
     "link": "https://en.wikipedia.org/wiki/Sleeping_Dogs_(video_game)",
-    "cover": "sleeping-dogs.jpg"
+    "cover": "sleeping-dogs.jpg",
+    "loved": true
   },
   {
+    "id": "4a51b333-2db6-46d4-a052-9d30a23d3863",
     "name": "Watch Dogs 2",
     "year": 2016,
     "developer": "Ubisoft Montreal",
@@ -192,6 +222,7 @@
     "cover": "watch-dogs-2.jpg"
   },
   {
+    "id": "52c2bfc6-6be6-4347-a75f-f2d3929d8a78",
     "name": "Just Cause 3",
     "year": 2015,
     "developer": "Avalanche Studios",
@@ -200,6 +231,7 @@
     "cover": "just-cause-3.jpg"
   },
   {
+    "id": "458ac90d-338d-4ad4-9822-48b8090cfc5f",
     "name": "Need for Speed Rivals",
     "year": 2013,
     "developer": "Ghost Games",
@@ -208,14 +240,17 @@
     "cover": "nfs-rivals.jpg"
   },
   {
+    "id": "6a6d5010-441b-4ad7-be46-93885abc27fd",
     "name": "Horizon Zero Dawn",
     "year": 2017,
     "developer": "Guerrilla Games",
     "description": "Outcast hunter Aloy explores a post-apocalyptic world ruled by animal-like machines, uncovering what ended the old civilisation.",
     "link": "https://en.wikipedia.org/wiki/Horizon_Zero_Dawn",
-    "cover": "horizon-zero-dawn.jpg"
+    "cover": "horizon-zero-dawn.jpg",
+    "loved": true
   },
   {
+    "id": "856e3729-46d9-4b03-a68e-6df3d0fa2c37",
     "name": "House Flipper",
     "year": 2018,
     "developer": "Empyrean",
@@ -224,6 +259,7 @@
     "cover": "house-flipper.jpg"
   },
   {
+    "id": "33a0edf6-83c2-4de7-b4b7-f1dd3ffeae6a",
     "name": "Mini Metro",
     "year": 2015,
     "developer": "Dinosaur Polo Club",
@@ -232,6 +268,7 @@
     "cover": "mini-metro.jpg"
   },
   {
+    "id": "0d083ff1-5ac2-456c-97d0-7280e755c1fd",
     "name": "Animal Crossing: New Horizons",
     "year": 2020,
     "developer": "Nintendo EPD",
@@ -240,6 +277,7 @@
     "cover": "animal-crossing-nh.jpg"
   },
   {
+    "id": "cf6ab0f6-b434-4f78-961c-44f56d11fe1d",
     "name": "GRID",
     "year": 2019,
     "developer": "Codemasters",
@@ -248,6 +286,7 @@
     "cover": "grid-2019.jpg"
   },
   {
+    "id": "4588766c-a010-4532-be8f-2d1a47cebb6e",
     "name": "Saints Row: The Third",
     "year": 2011,
     "developer": "Volition",
@@ -256,6 +295,7 @@
     "cover": "saints-row-3.jpg"
   },
   {
+    "id": "914dcc70-801d-4124-b545-77e0026f87d7",
     "name": "Max Payne 2: The Fall of Max Payne",
     "year": 2003,
     "developer": "Remedy Entertainment",
@@ -264,6 +304,7 @@
     "cover": "max-payne-2.jpg"
   },
   {
+    "id": "3c98639c-4854-4b1f-8c74-c25eaf7da9e9",
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition",
     "year": 2021,
     "developer": "Grove Street Games",
@@ -272,6 +313,7 @@
     "cover": "gta-trilogy.jpg"
   },
   {
+    "id": "6c92386d-2cd4-45f3-9b32-6b97382f2681",
     "name": "Far Cry 4",
     "year": 2014,
     "developer": "Ubisoft Montreal",
@@ -280,6 +322,7 @@
     "cover": "far-cry-4.jpg"
   },
   {
+    "id": "6c0364c8-ae88-40ba-b00c-efa3f77c7c66",
     "name": "Cricket 07",
     "year": 2006,
     "developer": "HB Studios & EA Canada",
@@ -288,6 +331,7 @@
     "cover": "cricket-07.png"
   },
   {
+    "id": "ec5eecbe-96bb-4d46-a71c-aca6ea8e2b7a",
     "name": "FIFA 15",
     "year": 2014,
     "developer": "EA Canada",
@@ -296,6 +340,7 @@
     "cover": "fifa-15.jpg"
   },
   {
+    "id": "bddc9160-a1ae-412f-ba5f-b4e192f9d2a5",
     "name": "Duck Hunt",
     "year": 1984,
     "developer": "Nintendo R&D1",
@@ -304,6 +349,7 @@
     "cover": "duck-hunt.jpg"
   },
   {
+    "id": "1a7dd979-ebed-4fe2-a568-9464d949d78c",
     "name": "Woody Woodpecker Racing",
     "year": 2000,
     "developer": "Syrox Developments",
@@ -312,6 +358,7 @@
     "cover": "woody-woodpecker-racing.jpg"
   },
   {
+    "id": "9da26c7e-8856-4956-b596-2bcc772120bf",
     "name": "Autobahn Raser II",
     "year": 1999,
     "developer": "Davilex Games",
@@ -320,6 +367,7 @@
     "cover": "autobahn-raser-2.jpg"
   },
   {
+    "id": "a2078b3c-ed39-441e-b0a9-2f11e6658a78",
     "name": "Need for Speed II",
     "year": 1997,
     "developer": "EA Canada & EA Seattle",
@@ -328,6 +376,7 @@
     "cover": "nfs-2.jpg"
   },
   {
+    "id": "3ec0a857-b956-4785-9834-c9ef6d1d501e",
     "name": "Pepsiman",
     "year": 1999,
     "developer": "KID",
@@ -336,6 +385,7 @@
     "cover": "pepsiman.jpg"
   },
   {
+    "id": "d3e49452-d94e-49c9-b5db-05cce25b7536",
     "name": "Gran Turismo 2",
     "year": 1999,
     "developer": "Polyphony Digital",
@@ -344,6 +394,7 @@
     "cover": "gran-turismo-2.jpg"
   },
   {
+    "id": "212fd0b9-724d-47e8-8880-3f2be5b70eca",
     "name": "Battlefield 4",
     "year": 2013,
     "developer": "DICE",
@@ -352,6 +403,7 @@
     "cover": "battlefield-4.jpg"
   },
   {
+    "id": "2d0a5e25-9da0-4069-9785-5cf006b45b3e",
     "name": "Twisted Metal 2",
     "year": 1996,
     "developer": "SingleTrac",
@@ -360,6 +412,7 @@
     "cover": "twisted-metal-2.jpg"
   },
   {
+    "id": "cd2acc25-c056-495d-853f-446aabb06b6b",
     "name": "Spider-Man",
     "year": 2000,
     "developer": "Neversoft",
@@ -368,6 +421,7 @@
     "cover": "spider-man-2000.jpg"
   },
   {
+    "id": "be428518-8198-45c4-bb4d-c9aa25655a4f",
     "name": "Need for Speed: Most Wanted",
     "year": 2012,
     "developer": "Criterion Games",
@@ -376,6 +430,7 @@
     "cover": "nfs-mw-2012.jpg"
   },
   {
+    "id": "17d62d64-20d6-417b-b16d-3f7eebb16b8d",
     "name": "Need for Speed: The Run",
     "year": 2011,
     "developer": "EA Black Box",
@@ -384,6 +439,7 @@
     "cover": "nfs-the-run.jpg"
   },
   {
+    "id": "5e3a9951-e61c-4935-bd07-2d23f4371455",
     "name": "Hitman: Blood Money",
     "year": 2006,
     "developer": "IO Interactive",
@@ -392,6 +448,7 @@
     "cover": "hitman-blood-money.jpg"
   },
   {
+    "id": "6265ffa0-5e4a-45a5-917b-2137cfb06439",
     "name": "Hitman: Absolution",
     "year": 2012,
     "developer": "IO Interactive",
@@ -400,11 +457,103 @@
     "cover": "hitman-absolution.jpg"
   },
   {
+    "id": "1dffd211-0f92-48fd-8e12-a1deabb34216",
     "name": "Hitman: Codename 47",
     "year": 2000,
     "developer": "IO Interactive",
     "description": "The debut of Agent 47, a cloned assassin who takes contracts from Hong Kong to Rotterdam and uncovers the truth about his own creation.",
     "link": "https://en.wikipedia.org/wiki/Hitman:_Codename_47",
     "cover": "hitman-codename-47.jpg"
+  },
+  {
+    "id": "f327c528-f8bc-4a98-b67a-11abe407f83f",
+    "name": "Counter-Strike: Global Offensive",
+    "year": 2012,
+    "developer": "Valve & Hidden Path Entertainment",
+    "description": "Terrorists and Counter-Terrorists face off in objective-based matches, planting or defusing bombs and holding or rescuing hostages.",
+    "link": "https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive",
+    "cover": "cs-go.jpg",
+    "loved": true
+  },
+  {
+    "id": "78c10a84-3afa-4e06-b3d0-c5507ff92881",
+    "name": "Call of Duty 4: Modern Warfare",
+    "year": 2007,
+    "developer": "Infinity Ward",
+    "description": "Call of Duty leaves the Second World War for a modern-day campaign, alongside multiplayer where levelling up unlocks new weapons and attachments.",
+    "link": "https://en.wikipedia.org/wiki/Call_of_Duty_4:_Modern_Warfare",
+    "cover": "cod-4.jpg"
+  },
+  {
+    "id": "c22d3f3a-e6b3-4fb0-8809-fffc957bda0f",
+    "name": "World's Scariest Police Chases",
+    "year": 2001,
+    "developer": "Unique Development Studios",
+    "description": "An open-world driving game based on the TV show: play a police officer chasing down criminals across the city of Ashland, narrated by John Bunnell.",
+    "link": "https://en.wikipedia.org/wiki/World%27s_Scariest_Police_Chases_(video_game)",
+    "cover": "worlds-scariest-police-chases.jpg"
+  },
+  {
+    "id": "3cd702c7-1a26-4c39-ae62-341e1f94105d",
+    "name": "Driver 2",
+    "year": 2000,
+    "developer": "Reflections Interactive",
+    "description": "Movie-style car chases through Chicago, Havana, Las Vegas and Rio de Janeiro, with Tanner now able to step out and take other cars.",
+    "link": "https://en.wikipedia.org/wiki/Driver_2",
+    "cover": "driver-2.jpg"
+  },
+  {
+    "id": "d47715e1-07ee-42a3-a7cc-261502da74e9",
+    "name": "Driv3r",
+    "year": 2004,
+    "developer": "Reflections Interactive",
+    "description": "Undercover agent John Tanner investigates a car-smuggling ring across Miami, Nice and Istanbul, on foot as well as behind the wheel.",
+    "link": "https://en.wikipedia.org/wiki/Driver_3",
+    "cover": "driv3r.jpg"
+  },
+  {
+    "id": "b4d37ae8-f550-4a11-8290-3e58a6a22bd9",
+    "name": "Galaxy on Fire 2",
+    "year": 2009,
+    "developer": "Fishlabs",
+    "description": "Thrown 35 years into the future by a hyperdrive malfunction, Keith T. Maxwell fights, trades and mines his way across the galaxy as the Void attack.",
+    "link": "https://en.wikipedia.org/wiki/Galaxy_on_Fire_2",
+    "cover": "galaxy-on-fire-2.jpg"
+  },
+  {
+    "id": "35e7412f-e8a4-453f-b244-385dc2433b5d",
+    "name": "EA Sports FC 24",
+    "year": 2023,
+    "developer": "EA Vancouver & EA Romania",
+    "description": "The first EA Sports FC, picking up where the FIFA series left off after FIFA 23.",
+    "link": "https://en.wikipedia.org/wiki/EA_Sports_FC_24",
+    "cover": "fc-24.jpg"
+  },
+  {
+    "id": "d2021605-fe7f-4c6a-ad1a-a625814f2efd",
+    "name": "Need for Speed Heat",
+    "year": 2019,
+    "developer": "Ghost Games",
+    "description": "Sanctioned races for cash by day and illicit street racing for rep by night, in the Miami-inspired Palm City.",
+    "link": "https://en.wikipedia.org/wiki/Need_for_Speed_Heat",
+    "cover": "nfs-heat.png"
+  },
+  {
+    "id": "8669b0b2-820c-471a-8369-00607b5af619",
+    "name": "Tell Me Why",
+    "year": 2020,
+    "developer": "Dontnod Entertainment",
+    "description": "Telepathic twins Tyler and Alyson reunite in rural Alaska to investigate the death of their mother, each remembering the past differently.",
+    "link": "https://en.wikipedia.org/wiki/Tell_Me_Why_(video_game)",
+    "cover": "tell-me-why.jpg"
+  },
+  {
+    "id": "5adf5780-e1c7-44e9-8ddc-fa914a15721e",
+    "name": "Fall Guys",
+    "year": 2020,
+    "developer": "Mediatonic",
+    "description": "Bean-shaped contestants tumble through obstacle courses and survival challenges until one player or team is left to take the win.",
+    "link": "https://en.wikipedia.org/wiki/Fall_Guys",
+    "cover": "fall-guys.jpg"
   }
 ]

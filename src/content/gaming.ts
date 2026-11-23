@@ -15,7 +15,7 @@ export const gamerIds: { platform: string; id: string; icon: IconType; href?: st
     platform: "Steam",
     id: "saad_jhk",
     icon: FaSteam,
-    href: "https://steamcommunity.com/id/your-steam-id",
+    href: "https://steamcommunity.com/id/vealryesaturn",
   },
   {
     platform: "Epic Games",
@@ -30,16 +30,19 @@ export const gamerIds: { platform: string; id: string; icon: IconType; href?: st
 ];
 
 // Games shown as tiles on the gaming page, sorted by release year. The list
-// itself lives in games.json.
+// itself lives in games.json. `id` is a random UUID and must be unique.
 // `cover` is box art (2:3): a file name in src/assets/games/ (e.g.
 // "vice-city.jpg") or a full URL. Missing covers fall back to the title.
+// `loved` games also appear in the "Games I absolutely loved" section.
 export type Game = {
+  id: string;
   name: string;
   year: number;
   developer: string;
   description?: string;
   link?: string;
   cover?: string;
+  loved?: boolean;
 };
 
 export const GAMES: Game[] = gamesData;

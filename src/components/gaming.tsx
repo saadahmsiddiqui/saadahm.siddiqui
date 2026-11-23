@@ -1,6 +1,6 @@
 import Container from "./container";
 import GamerIds from "./gamer-ids";
-import Games from "./games";
+import Games, { LovedGames } from "./games";
 import PageIntro from "./page-intro";
 
 export default function Gaming() {
@@ -13,6 +13,7 @@ export default function Gaming() {
                 friends. Here are the games I’m playing now and the ones that stayed with me.
             </PageIntro>
             <GamerIds />
+            <LovedGames />
             <Games />
         </Container>
     )
