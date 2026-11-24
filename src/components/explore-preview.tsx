@@ -2,6 +2,7 @@ import type { CSSProperties } from "react";
 import { entriesOfKind, formatStarted, formatYears } from "../content/entries";
 import { GAMES, gameCoverSrc } from "../content/gaming";
 import { photos } from "../content/photos";
+import { flags, formatTripDates, trips } from "../content/travel";
 import { coverSrc, TV_SHOWS } from "../content/tv-shows";
 
 const CARDS = 5;
@@ -27,6 +28,12 @@ const workRows = entriesOfKind("work").map((entry) => ({
   detail: entry.detail,
   when: formatYears(entry),
 }));
+// Newest first, like the other previews.
+const tripRows = [...trips].reverse().map((trip) => ({
+  title: `${flags[trip.country]} ${trip.country}`,
+  detail: trip.cities.map((city) => city.name).join(", "),
+  when: formatTripDates(trip),
+}));
 
 /** A hand of cards. --open (set by Explore) runs from 0, stacked, to 1, fanned out. */
 function Fan({ images }: { images: string[] }) {
@@ -50,7 +57,7 @@ function Rows({ rows }: { rows: { title: string; detail?: string; when: string }
   return (
     <ul className="grid w-full gap-4 pl-9 stage:pl-0">
       {rows.slice(0, CARDS).map((row) => (
-        <li key={row.title} className="flex items-baseline justify-between gap-6">
+        <li key={`${row.title} ${row.when}`} className="flex items-baseline justify-between gap-6">
           <span className="min-w-0">
             <span className="block text-paper">{row.title}</span>
             {row.detail && <span className="line-clamp-2 text-sm text-dust">{row.detail}</span>}
@@ -75,6 +82,8 @@ export default function ExplorePreview({ to }: { to: string }) {
       return <Fan images={posterCards} />;
     case "/gaming":
       return <Fan images={gameCards} />;
+    case "/travel":
+      return <Rows rows={tripRows} />;
     default:
       return null;
   }

@@ -5,6 +5,18 @@
 @import "tailwindcss";
 
 /*
+ * Flag emoji, which Chrome and Edge on Windows can't draw themselves. Only
+ * downloaded on pages that show a flag. Artwork: Twemoji, CC BY 4.0
+ * (https://creativecommons.org/licenses/by/4.0/).
+ */
+@font-face {
+  font-family: "Country Flags";
+  src: url("./assets/fonts/TwemojiCountryFlags.woff2") format("woff2");
+  unicode-range: U+1F1E6-1F1FF;
+  font-display: swap;
+}
+
+/*
  * Radix Colors dark scales (applied via class="dark" on <html>).
  * Step guide: 1 app background, 6 subtle borders, 9 solid, 11 low-contrast
  * text, 12 high-contrast text. To try another grey, swap "slate" for
@@ -20,7 +32,7 @@
   --color-live: var(--grass-11);  /* project status: live */
   --color-muse: var(--violet-11); /* home page quotes */
 
-  --font-sans: "Lato", system-ui, sans-serif;
+  --font-sans: "Country Flags", "Lato", system-ui, sans-serif;
 }
 
 /* Wide screens with a real pointer: Explore becomes a hover-to-select panel. */

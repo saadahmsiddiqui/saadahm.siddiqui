@@ -1,4 +1,4 @@
-import { LuBriefcase, LuCamera, LuClapperboard, LuCode, LuGamepad2 } from "react-icons/lu";
+import { LuBriefcase, LuCamera, LuClapperboard, LuCode, LuGamepad2, LuPlane } from "react-icons/lu";
 
 // The Explore section on the home page. Each page's preview is in
 // components/explore-preview.tsx, keyed by `to`.
@@ -38,5 +38,11 @@ export const explore = [
     body: "Video games that I play or have enjoyed in the past.",
     to: "/gaming",
     icon: LuGamepad2,
+  },
+  {
+    title: "Travel",
+    body: "Places I’ve visited and memories I’ve collected.",
+    to: "/travel",
+    icon: LuPlane,
   },
 ] as const;
